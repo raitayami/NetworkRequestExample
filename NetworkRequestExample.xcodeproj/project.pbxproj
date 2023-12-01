@@ -11,6 +11,7 @@
 		A3866CBA2B19E2E8009F2F21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3866CB92B19E2E8009F2F21 /* ContentView.swift */; };
 		A3866CBC2B19E2EB009F2F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3866CBB2B19E2EB009F2F21 /* Assets.xcassets */; };
 		A3866CBF2B19E2EB009F2F21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3866CBE2B19E2EB009F2F21 /* Preview Assets.xcassets */; };
+		A3866CC62B19F3FB009F2F21 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3866CC52B19F3FB009F2F21 /* SearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A3866CB92B19E2E8009F2F21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3866CBB2B19E2EB009F2F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3866CBE2B19E2EB009F2F21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3866CC52B19F3FB009F2F21 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		A3866CB62B19E2E8009F2F21 /* NetworkRequestExample */ = {
 			isa = PBXGroup;
 			children = (
+				A3866CC72B19F40D009F2F21 /* Model */,
 				A3866CB72B19E2E8009F2F21 /* NetworkRequestExampleApp.swift */,
 				A3866CB92B19E2E8009F2F21 /* ContentView.swift */,
 				A3866CBB2B19E2EB009F2F21 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				A3866CBE2B19E2EB009F2F21 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3866CC72B19F40D009F2F21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3866CC52B19F3FB009F2F21 /* SearchResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				A3866CBA2B19E2E8009F2F21 /* ContentView.swift in Sources */,
 				A3866CB82B19E2E8009F2F21 /* NetworkRequestExampleApp.swift in Sources */,
+				A3866CC62B19F3FB009F2F21 /* SearchResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
